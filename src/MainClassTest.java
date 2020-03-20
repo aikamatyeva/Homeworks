@@ -9,7 +9,7 @@ public class MainClassTest extends MainClass {
     @Test
     public void testGetClassString() {
         String s2 = getClassString().toLowerCase();
-        assertTrue(s2.contains("hello"));
+        assertTrue("Expected word not found!", s2.contains("hello"));
     }
 
     @Test
